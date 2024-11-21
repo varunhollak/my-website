@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Center the profile section */
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Full viewport height to center vertically */
+    text-align: center;
+}
+
+/* Style for circular profile photo */
+.profile-photo {
+    width: 200px; /* Medium size */
+    height: 200px; /* Same as width to make it circular */
+    border: 5px solid #c7acf5; /* Highlight color for border */
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.66); /* Shadow for depth */
+    object-fit: cover; /* Ensures image fits well in circular shape */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover transition */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: hsl(0, 2%, 9%);
+    background-color: #e1f0b4e9;
+    line-height: 1.6;
+}
+
+header {
+    background-color: hsla(240, 25%, 23%, 0.107);
+    color: #f51010f3;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    background-color: hwb(0 16% 83%);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #4fe9ebed;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #e882d4;
+    border-radius: 4px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 2rem;
+    background: #f38ae0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #100111;
+}
